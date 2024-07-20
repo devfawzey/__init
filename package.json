@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  },
+  "dependencies": {
+    "@barba/core": "^2.10.0",
+    "gsap": "^3.12.5",
+    "live-server": "^1.2.2"
+  }
+}
